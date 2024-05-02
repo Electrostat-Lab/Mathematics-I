@@ -38,5 +38,9 @@ This repository houses re-usable equations and formulas for the following:
 > * Elimination methods.
 > * Gaussian's Elimination.
 > * Vectorial matrices.
+> * Linear dependance and independence.
+> * Linear Interpolation.
+> * Linear Extrapolation.
+> * Eigenvalues.
 
 
