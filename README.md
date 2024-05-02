@@ -15,6 +15,8 @@ This repository houses re-usable equations and formulas for the following:
 > * Cross product.
 > * Projection vectors.
 > * Triple product.
+> * Polar coordinates.
+> * Polar-to-rectangular coordinates.
 > * Vectorial analysis using the fundamental theorem.
 
 * Discrete Mathematics.
@@ -34,7 +36,7 @@ This repository houses re-usable equations and formulas for the following:
 
 * Linear algebra.
 > * Elimination methods.
-> * Gussian's Elimination.
+> * Gaussian's Elimination.
 > * Vectorial matrices.
 
 
