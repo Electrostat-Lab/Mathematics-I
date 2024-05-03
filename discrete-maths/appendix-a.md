@@ -27,11 +27,11 @@
 > 2) Main loops - An Insider look:
 > - Base idea: _Apply additive identities on the previous exponential transcendentals._
 > - Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
-> - Then, the following applies, if $N^2=P+\phi$, then $\phi=N^2-P$; where
+> - Then, the following applies, if $N^2=N_P+N_{\phi$}, then $N{\phi}=N^2-N_P$; where $N_P} represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_\phi} represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
 >   
 > ```java
 > 1. IF (MAT[I,J] = 1) THEN
->     // execute {N^2 - P} times
+>     // execute commands
 > END
 > ```
 >
