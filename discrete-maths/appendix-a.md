@@ -10,9 +10,9 @@
 >   END
 > }
 > ```
-> - Then, it follows that the dummy `command()` will be executed $N$ times, so $$f(n) = N$$
-> - Hence, the complexity of the closure execution can be represented as a finite-sum by Riemann's sum formula: $$ $$
-> - Riemann's sums is applied for a finite-set of N-order loop closures execution, so $$ $$
+> - Then, it follows that the dummy `command()` will be executed $N$ times, so $$f(N) = N$$
+> - Hence, the complexity of the closure execution can be represented as a finite-sum by Riemann's sum formula: $$f(N) = \sum_{n=1}^{N} 1 = N(1) = N$$
+> - Riemann's sums is applied for a finite-set of N-order loop closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$; where $I$ is the total number of loop closures, and it represents the finite-item in the set.
 > 
 > #### 2) Conditional closures algorithms:
 > - Recall, _Closure B_:
