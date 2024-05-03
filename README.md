@@ -32,7 +32,10 @@ This repository houses re-usable equations and formulas for the following:
 > * Algorithms on FSA.
 > * Asymptotic analysis on FSA.
 > * The fundamental theorem of calculus in FSA-based algorithms.
-> 
+> * Appendix-A: Algorithm Analysis
+> * Appendix-B: FSA Analysis.
+> * Appendix-C: Time-warp states and FSA.
+> * Appendix-D: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
 
 * Linear algebra.
 > * Elimination methods.
