@@ -47,9 +47,10 @@ This repository houses re-usable equations and formulas for the following:
 > * Appendices
 > * =============================
 > * Appendix-A: [Algorithm Analysis](https://software-hardware-codesign.github.io/Mathematics-I/discrete-maths/appendix-a)
-> * Appendix-B: FSA Analysis.
-> * Appendix-C: Time-warp states and FSA.
-> * Appendix-D: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
+> * Appendix-B: [Analysis by example]()
+> * Appendix-C: FSA Analysis.
+> * Appendix-D: Time-warp states and FSA.
+> * Appendix-F: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
 > * =============================
 
 * **Linear algebra**
