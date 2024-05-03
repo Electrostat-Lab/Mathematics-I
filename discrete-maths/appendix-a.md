@@ -21,7 +21,7 @@
 > ```java
 > FOR I = 1 THRU N
 >   FOR J = 1 THRU N
->     // execute commands (conditions - statements - operations)
+>     // execute commands (conditions - statements - operations - compound closures)
 >   END
 > END
 > ```
@@ -31,17 +31,25 @@
 > - Recall, _Closure B_:
 > ```java
 > IF (MAT[I,J] = 1) THEN
->     // execute commands
+>     // execute commands (conditions - statements - operations - compound closures)
 > END
 > ```
 > - Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
 > - Then, the following applies, if $N^2=N_P+N_{\phi}$, then $N{\phi}=N^2-N_P$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
 > - Thence, the total number of execution of _Closure B_ is $N_e=N^2-N_{\phi}$ which is the same as ${N_P}$, while the total number of the non-execution of _Closure B_ is $N_{\phi}=N^2-P$.
 >   
->
 > 3) Second-order loops - Closures analysis:
+> - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
+> - Recall, _Closure C_:
+> ```java
+> FOR K = 1 THRU N
+>   // execute commands (conditions - statements - operations - compound closures)
+> END
+> ```
+> - Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
+> - When combined with _Closure A_ and _Closure B_, the formula will be $N_e=N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$.
 >
-> 4) Second-order loops - An Insider look:
+> 5) Second-order loops - An Insider look:
 
 
 
