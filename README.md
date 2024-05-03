@@ -11,19 +11,23 @@ This repository houses re-usable equations and formulas for the following:
 > * Second-order differential equations.
 > * Vectors.
 > * Basic operations on vectors.
-> * Dot product.
+> * Dot product and projection vectors.
 > * Cross product.
-> * Projection vectors.
 > * Triple product.
 > * Polar coordinates.
 > * Polar-to-rectangular coordinates.
 > * Vectorial analysis using the fundamental theorem.
-> * **Appendicies: Proofs**
+> * Appendicies: Proofs =============================
 > * Appendix-A: Derivation of the first-order differential equations for the transcendental functions.
 > * Appendix-B: Derivation of the trigonometric identities.
 > * Appendix-C: Derivation of the fundamental theorem part-01 & part-02.
-> * Appendix-D:
-> * 
+> * Appendix-D: Derivation of the vector normalization formula.
+> * Appendix-E: Derivation of the dot product and the projection vectors.
+> * Appendix-F: Derivation of the cross product.
+> * Appendix-G: Derivation of the triple product.
+> * Appendix-H: Derivation of the vectorial polar coordinates from the rectangular coordinates.
+> * Appendix-I: Mathematical analysis models (univariable & multivariable), and continuum to _Mathematics-II_.
+> * =============================
 
 * Discrete Mathematics.
 > * Sets & Relations.
