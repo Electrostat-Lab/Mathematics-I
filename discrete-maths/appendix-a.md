@@ -12,8 +12,9 @@
 > ```
 > - Then, it follows that the dummy `command()` will be executed $N$ times, so $$f(N) = N$$
 > - Hence, the complexity of the closure execution can be represented as a finite-sum by Riemann's sum formula: $$f(N) = \sum_{n=1}^{N} 1 = N(1) = N$$
-> - Riemann's sums can applied for a finite-set of N-order loop closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
->                 $$= N_i + N_{i+1} + N_{i+2} + ... + N_{I-2} + N_{I-1} + N_{I}$$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set.
+> - Since, Riemann's sums can applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
+> - Then, a specific notation of Riemann's sums can applied for a finite-set $S_L$ of loop closures execution: $$f(I) = \sum_{i=1}^{I} f(L_{i}) = f(L_{i}) + f(L_{i+1}) + f(L_{i+2}) + ... + f(L_{I-2}) + f(L_{I-1}) + f(L_{I})$$
+>                 $$= L_i + L_{i+1} + L_{i+2} + ... + L_{I-2} + L_{I-1} + L_{I}$$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set.
 > 
 > ### 2) Conditional closures algorithms:
 > - Recall, _Closure B_:
@@ -26,7 +27,8 @@
 > ```
 > - Where, $C_i$ is the condition tag, and _i_ is the number of conditions, in this case, it's 1.
 > - Then, it follows that the dummy `command()` will be executed $1$ times, so $$f(n) = 1$$
-> - Riemann's sums can applied for a finite-set of conditional closures execution, so $$f(I) = \sum_{i=1}^{I} f(C_{i}) = f(C_{i}) + f(C_{i+1}) + f(C_{i+2}) + ... + f(C_{I-2}) + f(C_{I-1}) + f(C_{I})$$
+> - Since, Riemann's sums can applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
+> - Then, a specific notation of Riemann's sums can applied for a finite-set $S_C$ of conditional closures execution, so $$f(I) = \sum_{i=1}^{I} f(C_{i}) = f(C_{i}) + f(C_{i+1}) + f(C_{i+2}) + ... + f(C_{I-2}) + f(C_{I-1}) + f(C_{I})$$
 >                $$=I(1)=I$$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set, and $f(C_{i})$ is the complexity of execution of a condition (notice, how this function is very abstract, as the `command()` could be another algorithm of another complexity, see `compound complexities section`).
 >   
 > ### 3) Compound (or Nested) closures algorithms:
