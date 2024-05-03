@@ -47,9 +47,18 @@
 > END
 > ```
 > - Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
-> - When combined with _Closure A_ and _Closure B_, the formula will be $$f(n) = N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$$ ;where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
+> - When combined with _Closure A_ and _Closure B_, the formula will be $$N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$$ ;where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
 >
 > 5) Second-order loops - An Insider look:
+> - Base idea: Again, as _(2)_, apply the _additive identities_ on the previous quadratic transcendental function.
+> - Recall, _Closure D_:
+> ```java
+> IF (MAT[J,K] = 1 and MAT[I,K] = 1) THEN
+>   // execute commands (conditions - statements - operations - compound closures)
+> END
+> ```
+> - Then, the following applies $$N_{e^{''}} = N_{P^{'}} + N_{{\phi}^{'}}$$ ;where $N_{e^{''}}$ represents the discrete compound complexity for _Closure C_ and _Closure D_ ONLY, when taken out of this system.
+> 
 
 
 
