@@ -17,7 +17,8 @@ This repository houses re-usable equations and formulas for the following:
 > * Polar coordinates.
 > * Polar-to-rectangular coordinates.
 > * Vectorial analysis using the fundamental theorem.
-> * Appendicies: Proofs =============================
+> * Appendicies: Proofs
+> * =============================
 > * Appendix-A: Derivation of the first-order differential equations for the transcendental functions.
 > * Appendix-B: Derivation of the trigonometric identities.
 > * Appendix-C: Derivation of the fundamental theorem part-01 & part-02.
@@ -42,10 +43,13 @@ This repository houses re-usable equations and formulas for the following:
 > * Algorithms on FSA.
 > * Asymptotic analysis on FSA.
 > * The fundamental theorem of calculus in FSA-based algorithms.
+> * Appendicies
+> * =============================
 > * Appendix-A: Algorithm Analysis
 > * Appendix-B: FSA Analysis.
 > * Appendix-C: Time-warp states and FSA.
 > * Appendix-D: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
+> * =============================
 
 * Linear algebra.
 > * Elimination methods.
