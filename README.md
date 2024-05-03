@@ -1,4 +1,5 @@
 # Mathematics-I
+> Created by [Pavl_G](https://github.com/Scrappers-glitch)
 
 ## Outline: 
 This repository houses re-usable equations and formulas for the following:
