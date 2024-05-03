@@ -15,7 +15,7 @@
 > ```
 > * Analysis:
 > * ===============================
-> 1) Main loops - Closures analysis:
+> ### 1) Main loops - Closures analysis:
 > - Base idea: _Apply exponential transcendental functions:_ $$f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to be executed.
 > - Recall, _Closure A_, composed of 2 closures:  
 > ```java
@@ -26,7 +26,7 @@
 > END
 > ```
 > 
-> 2) Main loops - An Insider look:
+> ### 2) Main loops - An Insider look:
 > - Base idea: _Apply additive identities on the previous exponential transcendentals._
 > - Recall, _Closure B_:
 > ```java
@@ -38,7 +38,7 @@
 > - Then, the following applies, if $N^2=N_P+N_{\phi}$, then $$N{\phi}=N^2-N_P$$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
 > - Thence, the total number of execution of _Closure B_ is $$N_e=N^2-N_{\phi}$$ which is the same as ${N_P}$, while the total number of the non-execution of _Closure B_ is $$N_{\phi}=N^2-P$$
 >   
-> 3) Second-order loops - Closures analysis:
+> ### 3) Second-order loops - Closures analysis:
 > - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
 > - Recall, _Closure C_:
 > ```java
@@ -49,7 +49,7 @@
 > - Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
 > - When combined with _Closure A_ and _Closure B_, the formula will be $$N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$$ ;where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
 >
-> 5) Second-order loops - An Insider look:
+> ### 4) Second-order loops - An Insider look:
 > - Base idea: Again, as _(2)_, apply the _additive identities_ on the previous quadratic transcendental function.
 > - Recall, _Closure D_:
 > ```java
