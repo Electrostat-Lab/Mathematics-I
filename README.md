@@ -18,6 +18,12 @@ This repository houses re-usable equations and formulas for the following:
 > * Polar coordinates.
 > * Polar-to-rectangular coordinates.
 > * Vectorial analysis using the fundamental theorem.
+> * **Appendicies: Proofs**
+> * Appendix-A: Derivation of the first-order differential equations for the transcendental functions.
+> * Appendix-B: Derivation of the trigonometric identities.
+> * Appendix-C: Derivation of the fundamental theorem part-01 & part-02.
+> * Appendix-D:
+> * 
 
 * Discrete Mathematics.
 > * Sets & Relations.
