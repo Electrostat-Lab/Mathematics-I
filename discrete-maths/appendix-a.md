@@ -47,7 +47,7 @@
 > END
 > ```
 > - Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
-> - When combined with _Closure A_ and _Closure B_, the formula will be $N_e=N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$.
+> - When combined with _Closure A_ and _Closure B_, the formula will be $f(n) = N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$; where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
 >
 > 5) Second-order loops - An Insider look:
 
