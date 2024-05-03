@@ -15,13 +15,13 @@
 > * Analysis:
 > * =============
 > * Part.01:
-> 1) Main loop - Closure analysis:
+> 1) Main loops - Closure analysis:
 > ```java
 > 2. FOR I = 1 THRU N
 >   a. FOR J = 1 THRU N
 > ```
 > $f(n) = N^2$
-> 2) 
+> 2) Main loops - Insider look:
 > 
 
 
