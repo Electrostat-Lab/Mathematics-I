@@ -16,7 +16,7 @@
 > * =============
 > * Part.01:
 > 1) Main loops - Closure analysis:
-> - Base idea: _Apply exponential transcendental functions: $f(n) = N^{n_l} = N^2$_
+> - Base idea: _Apply exponential transcendental functions:_ $f(n) = N^{n_l} = N^2$; where ${n_l}$ is the number of loop closures to be executed.
 > ```java
 > 2. FOR I = 1 THRU N
 >   a. FOR J = 1 THRU N
