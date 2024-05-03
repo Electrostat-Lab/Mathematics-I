@@ -30,7 +30,9 @@
 > - 
 >   
 > ```java
->    1. IF (MAT[I,J] = 1) THEN
+> 1. IF (MAT[I,J] = 1) THEN
+>     // execute {N^2 - P} times
+> END
 > ```
 >
 > 3) Second-order loops - Closures analysis:
