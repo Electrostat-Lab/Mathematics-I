@@ -32,73 +32,16 @@
 > - Since, Riemann's sums can applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
 > - Then, a specific notation of Riemann's sums can applied for a finite-set $S_C$ of conditional closures execution, so $$f(I) = \sum_{i=1}^{I} f(C_{i}) = f(C_{i}) + f(C_{i+1}) + f(C_{i+2}) + ... + f(C_{I-2}) + f(C_{I-1}) + f(C_{I})$$
 >                $$={(N_c)}\_1 + {(N_c)}\_2 + {(N_c)}\_3 +...+ ({N_c})\_{I-2} + ({N_c})\_{I-1} + ({N_c})\_{I} $$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set, and $f(C_{i})$ is the complexity of execution of a conditional command `command()` (notice, how this function is very abstract, as the `command()` could be another algorithm of another complexity, see `compound complexities section`).
->
+> 
 > ### 3) The base behind compositing closures:
->  
+> - Closures can be designated as special types of _Sets_; where operations, a specific sort of relations, are being monitored in an execution environment, hence all types of closures creates $$f(N) = C(N) * \sum_{c=1}^{C} N_c = C(N) * (N_1 + N_2 + N_3 + ... + N_{C-2} + N_{C-1} + N_C)$$ ;where $f(N)$ is the total clock-complexity of the closure execution (execution of commands inside the closure), $C(N)$ is the clock-complexity of the closure itself by its class (e.g., first-order loops use $C(N)=N$), and $N_c$ represents the clock-complexity of the single command, in which their Riemann's sum yields the total clock-complexity of execution of the enclosed commands.
+> - Now, if the super-closure (superset) has a simple complexity of constant functional execution (i.e., of $C(N) = 1$), then the generalized Riemann's sum can be narrowed down to: $$f(N) = C(N) * \sum_{c=1}^{C} N_c = (1) * \sum_{c=1}^{C} N_c$$
+> - While, if the super-closure (superset) has a loop complexity of transcendental functional execution (i.e., of $C(N) = c*N^e$), then the generalized Riemann's sum can be obtained as follows: $$f(N) = C(N) * \sum_{c=1}^{C} N_c = c * N^e * \sum_{c=1}^{C} N_c$$ ;where $c$ is a constant co-efficient, and $e$ is the exponent representing nested loop closures.
 >   
 > ### 4) Compound (or Nested) closures algorithms:
 > 
 > 
 
-## Test for transitivity of relations in set A, where R represents the set of the relations from A to A; such that {A `R` A} can be deployed: 
-
-> * Bool isTransitive(MAT, N):
-> 
-> ```java 
-> 1. RESULT ← T
-> 2. FOR I = 1 THRU N
->  a. FOR J = 1 THRU N
->    1. IF (MAT[I,J] = 1) THEN
->      a. FOR K = 1 THRU N
->        1. IF (MAT[J,K] = 1 and MAT[I,K] = 1) THEN
->          a. RESULT ← F
-> ```
-> * Analysis:
-> * ===============================
-> ### 1) Main loops - Closures analysis:
-> - Base idea: _Apply exponential transcendental functions:_ $$f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to be executed.
-> - Recall, _Closure A_, composed of 2 closures:  
-> ```java
-> FOR I = 1 THRU N
->   FOR J = 1 THRU N
->     // execute commands (conditions - statements - operations - compound closures)
->   END
-> END
-> ```
-> 
-> ### 2) Main loops - An Insider look:
-> - Base idea: _Apply additive identities on the previous exponential transcendentals._
-> - Recall, _Closure B_:
-> ```java
-> IF (MAT[I,J] = 1) THEN
->     // execute commands (conditions - statements - operations - compound closures)
-> END
-> ```
-> - Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
-> - Then, the following applies, if $N^2=N_P+N_{\phi}$, then $$N{\phi}=N^2-N_P$$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
-> - Thence, the total number of execution of _Closure B_ is $$N_e=N^2-N_{\phi}$$ which is the same as ${N_P}$, while the total number of the non-execution of _Closure B_ is $$N_{\phi}=N^2-P$$
->   
-> ### 3) Second-order loops - Closures analysis:
-> - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
-> - Recall, _Closure C_:
-> ```java
-> FOR K = 1 THRU N
->   // execute commands (conditions - statements - operations - compound closures)
-> END
-> ```
-> - Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
-> - When combined with _Closure A_ and _Closure B_, the formula will be $$N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$$ ;where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
->
-> ### 4) Second-order loops - An Insider look:
-> - Base idea: Again, as _(2)_, apply the _additive identities_ on the previous quadratic transcendental function.
-> - Recall, _Closure D_:
-> ```java
-> IF (MAT[J,K] = 1 and MAT[I,K] = 1) THEN
->   // execute commands (conditions - statements - operations - compound closures)
-> END
-> ```
-> - Then, the following applies $$N_{e^{''}} = N_{P^{'}} + N_{{\phi}^{'}}$$ ;where $N_{e^{''}}$ represents the discrete compound complexity for _Closure C_ and _Closure D_ ONLY, when taken out of this system.
-> 
 
 
 
