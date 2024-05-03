@@ -14,27 +14,30 @@
 >          a. RESULT ← F
 > ```
 > * Analysis:
-> * =============
-> * Part.01:
+> * ===============================
 > 1) Main loops - Closures analysis:
 > - Base idea: _Apply exponential transcendental functions:_ $f(n) = N^{n_l} = N^2$; where ${n_l}$ is the number of loop closures to be executed.
->   
+> - Recall, _Closure A_, composed of 2 closures:  
 > ```java
-> 2. FOR I = 1 THRU N
->   a. FOR J = 1 THRU N
+> FOR I = 1 THRU N
+>   FOR J = 1 THRU N
+>     // execute commands (conditions - statements - operations)
+>   END
+> END
 > ```
 > 
 > 2) Main loops - An Insider look:
 > - Base idea: _Apply additive identities on the previous exponential transcendentals._
-> - Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
-> - Then, the following applies, if $N^2=N_P+N_{\phi}$, then $N{\phi}=N^2-N_P$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
-> - Thence, the total number of execution of the following closure is $N_e=N^2-N_{\phi}$ which is the same as ${N_P}$.
->   
+> - Recall, _Closure B_:
 > ```java
-> 1. IF (MAT[I,J] = 1) THEN
+> IF (MAT[I,J] = 1) THEN
 >     // execute commands
 > END
 > ```
+> - Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
+> - Then, the following applies, if $N^2=N_P+N_{\phi}$, then $N{\phi}=N^2-N_P$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
+> - Thence, the total number of execution of _Closure B_ is $N_e=N^2-N_{\phi}$ which is the same as ${N_P}$, while the total number of the non-execution of _Closure B_ is $N_{\phi}=N^2-P$.
+>   
 >
 > 3) Second-order loops - Closures analysis:
 >
