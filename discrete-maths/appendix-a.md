@@ -1,5 +1,36 @@
 # Discrete Mathematics I - Appendix-A: Algorithm Analysis by Examples
 
+### Algorithms Manual Analysis (Closures Analysis): 
+> #### 1) N-order looping algorithms:
+> - Recall, _Closure A_:
+> ```java
+> A {
+>   FOR I = 1 TO N:
+>       command()
+>   END
+> }
+> ```
+> - Then, it follows that the dummy `command()` will be executed $N$ times, so $$f(n) = N$$
+> - Hence, the complexity of the closure execution can be represented as a finite-sum by Riemann's sum formula: $$ $$
+> - Riemann's sums is applied for a finite-set of N-order loop closures execution, so $$ $$
+> 
+> #### 2) Conditional closures algorithms:
+> - Recall, _Closure B_:
+> ```java
+> B {
+>   IF ({C_i} = {VALUE}) THEN
+>       command()
+>   END
+> }
+> ```
+> - Where, $C_i$ is the condition tag, and _i_ is the number of conditions, in this case, it's 1.
+> - Then, it follows that the dummy `command()` will be executed $1$ times, so $$f(n) = 1$$
+> - Riemann's sums is applied for a finite-set of conditional closures execution, so $$ $$
+>   
+> #### 3) Compound (or Nested) closures algorithms:
+> 
+> 
+
 ### Test for transitivity of relations in set A, where R represents the set of the relations from A to A; such that {A `R` A} can be deployed: 
 
 > * Bool isTransitive(MAT, N):
