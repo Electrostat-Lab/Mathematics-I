@@ -27,7 +27,7 @@
 > 2) Main loops - An Insider look:
 > - Base idea: _Apply additive identities on the previous exponential transcendentals._
 > - Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
-> - 
+> - Then, the following applies, if $N^2=P+\phi$, then $\phi=N^2-P$; where
 >   
 > ```java
 > 1. IF (MAT[I,J] = 1) THEN
