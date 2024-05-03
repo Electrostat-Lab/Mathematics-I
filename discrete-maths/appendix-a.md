@@ -1,7 +1,7 @@
 # Discrete Mathematics I - Appendix-A: Algorithm Analysis by Examples
 
-### Algorithms Manual Analysis (Closures Analysis): 
-> #### 1) N-order looping algorithms:
+## Algorithms Manual Analysis (Closures Analysis): 
+> ### 1) N-order looping algorithms:
 > - Recall, _Closure A_:
 > ```java
 > A {
@@ -15,7 +15,7 @@
 > - Riemann's sums can applied for a finite-set of N-order loop closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
 >                 $$= N_i + N_{i+1} + N_{i+2} + ... + N_{I-2} + N_{I-1} + N_{I}$$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set.
 > 
-> #### 2) Conditional closures algorithms:
+> ### 2) Conditional closures algorithms:
 > - Recall, _Closure B_:
 > ```java
 > B {
@@ -29,11 +29,11 @@
 > - Riemann's sums can applied for a finite-set of conditional closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
 >                $$=I(1)=I$$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set, and $f(N_{i})$ is the complexity of execution of a condition (notice, how this function is very abstract, as the `command()` could be another algorithm of another complexity, see `compound complexities section`).
 >   
-> #### 3) Compound (or Nested) closures algorithms:
+> ### 3) Compound (or Nested) closures algorithms:
 > 
 > 
 
-### Test for transitivity of relations in set A, where R represents the set of the relations from A to A; such that {A `R` A} can be deployed: 
+## Test for transitivity of relations in set A, where R represents the set of the relations from A to A; such that {A `R` A} can be deployed: 
 
 > * Bool isTransitive(MAT, N):
 > 
