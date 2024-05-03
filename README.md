@@ -30,7 +30,7 @@ This repository houses re-usable equations and formulas for the following:
 > * Appendix-I: Mathematical analysis models (univariable & multivariable), and continuum to _Mathematics-II_.
 > * =============================
 
-* Discrete Mathematics.
+* [Discrete Mathematics](https://github.com/Software-Hardware-Codesign/Mathematics-I/tree/master/discrete-maths)
 > * Sets & Relations.
 > * Types of relations:
 > Paths.
