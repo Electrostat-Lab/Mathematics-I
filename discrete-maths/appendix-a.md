@@ -16,11 +16,12 @@
 > * =============
 > * Part.01:
 > 1) Main loops - Closure analysis:
+> - Base idea: _Apply exponential transcendental functions: $f(n) = N^{n_l} = N^2$_
 > ```java
 > 2. FOR I = 1 THRU N
 >   a. FOR J = 1 THRU N
 > ```
-> $f(n) = N^2$
+> 
 > 2) Main loops - Insider look:
 > 
 
