@@ -2,7 +2,7 @@
 
 ## Outline: 
 This repository houses re-usable equations and formulas for the following:
-* Calculus.
+* **Calculus**
 > * Functions.
 > * Transcendental functions.
 > * Differential calculus.
@@ -30,7 +30,7 @@ This repository houses re-usable equations and formulas for the following:
 > * Appendix-I: Mathematical analysis models (univariable & multivariable), and continuum to _Mathematics-II_.
 > * =============================
 
-* [Discrete Mathematics](https://github.com/Software-Hardware-Codesign/Mathematics-I/tree/master/discrete-maths)
+* **Discrete Mathematics**
 > * Sets & Relations.
 > * Types of relations:
 > Paths.
@@ -45,13 +45,13 @@ This repository houses re-usable equations and formulas for the following:
 > * The fundamental theorem of calculus in FSA-based algorithms.
 > * Appendices
 > * =============================
-> * Appendix-A: Algorithm Analysis
+> * Appendix-A: [Algorithm Analysis](https://software-hardware-codesign.github.io/Mathematics-I/discrete-maths/appendix-a)
 > * Appendix-B: FSA Analysis.
 > * Appendix-C: Time-warp states and FSA.
 > * Appendix-D: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
 > * =============================
 
-* Linear algebra.
+* **Linear algebra**
 > * Elimination methods.
 > * Gaussian's Elimination.
 > * Vectorial matrices.
