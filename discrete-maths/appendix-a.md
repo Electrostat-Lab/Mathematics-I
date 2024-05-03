@@ -28,10 +28,10 @@
 > }
 > ```
 > - Where, $C_i$ is the condition tag, and _i_ is the number of conditions, in this case, it's 1 times.
-> - Then, it follows that the dummy `command()` will be executed $1$ times, so $$f(n) = 1 * N_c$$ ;where N_c represents the clock-complexity for the involved `command()` to be executed by this execution.
+> - Then, it follows that the dummy `command()` will be executed $1$ times, so $$f(n) = 1 * N_c$$ ;where $N_c$ represents the clock-complexity for the involved `command()` to be executed by this execution.
 > - Since, Riemann's sums can applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
 > - Then, a specific notation of Riemann's sums can applied for a finite-set $S_C$ of conditional closures execution, so $$f(I) = \sum_{i=1}^{I} f(C_{i}) = f(C_{i}) + f(C_{i+1}) + f(C_{i+2}) + ... + f(C_{I-2}) + f(C_{I-1}) + f(C_{I})$$
->                $$=I(1)=I$$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set, and $f(C_{i})$ is the complexity of execution of a condition (notice, how this function is very abstract, as the `command()` could be another algorithm of another complexity, see `compound complexities section`).
+>                $$={(N_c)}\_1 + {(N_c)}\_2 + {(N_c)}\_3 +...+ ({N_c})\_{I-2} + ({N_c})\_{I-1} + ({N_c})\_{I} $$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set, and $f(C_{i})$ is the complexity of execution of a conditional command `command()` (notice, how this function is very abstract, as the `command()` could be another algorithm of another complexity, see `compound complexities section`).
 >
 > ### 3) The base behind compositing closures:
 >  
