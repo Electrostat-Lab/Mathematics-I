@@ -74,7 +74,7 @@ command(): {
   END
 }
 ```
-- Then, it follows that the total clock-complexity can be evaluated to: $$f(N) = N*N_c = N * (N * N_c) = N^2 * N_c$$
+- Then, it follows that the total clock-complexity can be evaluated to: $$f(N) = N*N_c = N * (N * N_c') = N^2 * N_c'$$ ;which means that the `command1()` where $N_c'$ will be executed $N^2$ times, in a product set fashion.
  
 
 
