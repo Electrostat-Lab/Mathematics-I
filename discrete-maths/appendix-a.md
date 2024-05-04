@@ -35,6 +35,9 @@ B {
  
 ### 3) The scientific basis behind compositing closures (defining a transcendental formula for closures):
 - Closures can be designated as special types of _Sets_; where operations, a specific sort of relations, are being monitored in an execution environment, hence all types of closures creates $$f(N) = C(N) * \sum_{c=1}^{C} N_c = C(N) * (N_1 + N_2 + N_3 + ... + N_{C-2} + N_{C-1} + N_C)$$ ;where $f(N)$ is the total clock-complexity of the closure execution (execution of commands inside the closure), $C(N)$ is the clock-complexity of the closure itself by its class (e.g., first-order loops use $C(N)=N$), and $N_c$ represents the clock-complexity of the single command, in which their Riemann's sum yields the total clock-complexity of execution of the enclosed commands.
+
+- It follows that this could be also represented using the _integral function_, aka. _Leibniz's notation_, the integral function integrates the time complexities of the stack of the function in the form $f(x).dx=C(N).N_c$: $$F(N) = C(N) * \sum_{c=1}^{C} N_c = \sum_{c=1}^{C} N_c * C(N) = \int_1^C{f(x).dx} = \int_1^C{N_c.C(N)}$$
+ 
 - Almost all properties of _Sets_ could be applied to closures, hence if the super-closure (superset) has a simple complexity of constant functional execution (i.e., of $C(N) = 1$), then the generalized Riemann's sum can be narrowed down to: $$f(N) = C(N) * \sum_{c=1}^{C} N_c = (1) * \sum_{c=1}^{C} N_c$$
 - While, if the super-closure (superset) has a loop complexity of transcendental functional execution (i.e., of $C(N) = c*N^e$), then the generalized Riemann's sum can be obtained as follows: $$f(N) = C(N) * \sum_{c=1}^{C} N_c = c * N^e * \sum_{c=1}^{C} N_c$$ ;where $c$ is a constant co-efficient, and $e$ is the exponent representing nested loop closures.
    
