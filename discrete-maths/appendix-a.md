@@ -14,8 +14,8 @@
 - Hence, the complexity of the closure execution can be represented as a finite-sum by Riemann's sum formula:
   $$f(N) = \sum_{n=1}^{N} N_c = {(N_c)}_1 + {(N_c)}_2 + {(N_c)}_3 +...+ ({N_c})\_{N-2} + ({N_c})\_{N-1} + ({N_c})\_{N} = N(N_c)$$
 - As a matter of multi-variable equations, as well as the total clock-complexity of the execution depends on the number of iterations, it also depends on what's inside the loop closures, or in other words the `command()` complexity. If, the `command()`'s clock-complexity can be evaluated to $N_c=1$ as a matter of simple command-execution opcode, then the total clock-complexity for this loop closure is $$f(N) = \sum_{n=1}^{N} 1 = N(1) = N$$.
-- Since, Riemann's sums can applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
-- Then, a specific notation of Riemann's sums can applied for a finite-set $S_L$ of loop closures execution: $$f(I) = \sum_{i=1}^{I} f(L_{i}) = f(L_{i}) + f(L_{i+1}) + f(L_{i+2}) + ... + f(L_{I-2}) + f(L_{I-1}) + f(L_{I})$$
+- Since, Riemann's sums can be applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
+- Then, a specific notation of Riemann's sums can be applied for a finite-set $S_L$ of loop closures execution: $$f(I) = \sum_{i=1}^{I} f(L_{i}) = f(L_{i}) + f(L_{i+1}) + f(L_{i+2}) + ... + f(L_{I-2}) + f(L_{I-1}) + f(L_{I})$$
                  $$= L_i + L_{i+1} + L_{i+2} + ... + L_{I-2} + L_{I-1} + L_{I}$$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set.
  
 ### 2) Conditional closures algorithms:
@@ -29,8 +29,8 @@ B {
 ```
 - Where, $C_i$ is the condition tag, and _i_ is the number of conditions, in this case, it's 1 times.
 - Then, it follows that the dummy `command()` will be executed $1$ times, so $$f(n) = 1 * N_c$$ ;where $N_c$ represents the clock-complexity for the involved `command()` to be executed by this execution.
-- Since, Riemann's sums can applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
-- Then, a specific notation of Riemann's sums can applied for a finite-set $S_C$ of conditional closures execution, so $$f(I) = \sum_{i=1}^{I} f(C_{i}) = f(C_{i}) + f(C_{i+1}) + f(C_{i+2}) + ... + f(C_{I-2}) + f(C_{I-1}) + f(C_{I})$$
+- Since, Riemann's sums can be applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
+- Then, a specific notation of Riemann's sums can be applied for a finite-set $S_C$ of conditional closures execution, so $$f(I) = \sum_{i=1}^{I} f(C_{i}) = f(C_{i}) + f(C_{i+1}) + f(C_{i+2}) + ... + f(C_{I-2}) + f(C_{I-1}) + f(C_{I})$$
                 $$={(N_c)}\_1 + {(N_c)}\_2 + {(N_c)}\_3 +...+ ({N_c})\_{I-2} + ({N_c})\_{I-1} + ({N_c})\_{I} $$ ;where $I$ is the total number of closures, and it represents the index of the finite-item in the set, and $f(C_{i})$ is the complexity of execution of a conditional command `command()` (notice, how this function is very abstract, as the `command()` could be another algorithm of another complexity, see `compound complexities section`).
  
 ### 3) The scientific basis behind compositing closures (defining a transcendental formula for closures):
@@ -75,6 +75,7 @@ command(): {
 }
 ```
 - Then, it follows that the total clock-complexity can be evaluated to: $$f(N) = N*N_c = N * (N * N_c') = N^2 * N_c'$$ ;which means that the `command1()` where $N_c'$ will be executed $N^2$ times, in a product set fashion.
+- Now, the $N_c$ can represent any type of clock-complexity ranging from complexity to compund complexity involving finite-sets, the general formula utilizes Riemann's sum, and can be also represented as an integral function using _Leibniz's notation_.
  
 
 
