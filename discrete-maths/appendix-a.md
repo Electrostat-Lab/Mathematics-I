@@ -54,7 +54,16 @@ command(): {
   END
 }
 ```
- 
+- Then, the total clock-complexity of execution will be: $$f(N) = N*N_c$$
+- However, if the `command()` holds a simple closure as the follows:
+ ```java
+command(): {
+   IF ({C_i} = {VALUE}) THEN
+       command1()
+   END
+}
+```
+- Then, it follows that
  
 
 
