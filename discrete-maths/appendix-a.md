@@ -39,6 +39,14 @@ B {
 - While, if the super-closure (superset) has a loop complexity of transcendental functional execution (i.e., of $C(N) = c*N^e$), then the generalized Riemann's sum can be obtained as follows: $$f(N) = C(N) * \sum_{c=1}^{C} N_c = c * N^e * \sum_{c=1}^{C} N_c$$ ;where $c$ is a constant co-efficient, and $e$ is the exponent representing nested loop closures.
    
 ### 4) Compound (or Nested) closures algorithms:
+- Recall, a super-closure $S_c$; such that:
+```java
+S_c: {
+  command()
+}
+```
+- Then, it follows that this closure executes the `command()` in (N) times the clock-complexity of the command $N_c$, hence $$f(N) = N*N_c$$
+- 
  
  
 
