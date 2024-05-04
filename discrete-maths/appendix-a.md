@@ -46,7 +46,14 @@ S_c: {
 }
 ```
 - Then, it follows that this closure executes the `command()` in (N) times the clock-complexity of the command $N_c$, hence $$f(N) = N*N_c$$
-- 
+- Hence, if the `command()` holds the following closure as its stack:
+```java
+command(): {
+  FOR I = 1 TO N:
+       command1();
+  END
+}
+```
  
  
 
