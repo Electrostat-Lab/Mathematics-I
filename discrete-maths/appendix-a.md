@@ -63,7 +63,18 @@ command(): {
    END
 }
 ```
-- Then, it follows that
+- Then, it follows that the total clock-complexity of execution will be: $$f(N) = N*N_c = (1) * N_c = N_c$$
+- Now, if the `command()` holds a nested loop closure as follows:
+```java
+command(): {
+  FOR I = 1 TO N:
+     FOR J = 1 TO N:
+       command1();
+     END
+  END
+}
+```
+- Then, it follows
  
 
 
