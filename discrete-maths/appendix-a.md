@@ -74,7 +74,7 @@ command(): {
   END
 }
 ```
-- Then, it follows
+- Then, it follows that the total clock-complexity can be evaluated to: $$f(N) = N*N_c = N * (N * N_c) = N^2 * N_c$$
  
 
 
