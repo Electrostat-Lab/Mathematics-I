@@ -3,3 +3,4 @@ description: Houses useful re-usable formulas, which create the base for life ma
 show_downloads: false
 google_analytics: false
 theme: jekyll-theme-slate
+layout: mathjax
