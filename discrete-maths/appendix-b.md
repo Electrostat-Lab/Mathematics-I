@@ -35,8 +35,8 @@
 > END
 > ```
 > - Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
-> - Then, the following applies, if $N^2=N_P+N_{\phi}$, then $$N{\phi}=N^2-N_P$$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
-> - Thence, the total number of execution of _Closure B_ is $$N_e=N^2-N_{\phi}$$ which is the same as ${N_P}$, while the total number of the non-execution of _Closure B_ is $$N_{\phi}=N^2-P$$
+> - Then, the following applies, if $N^2=N_P+N_{\phi\}$, then $$N{\phi\}=N^2-N_P$$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi\}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
+> - Thence, the total number of execution of _Closure B_ is $$N_e=N^2-N_{\phi\}$$ which is the same as ${N_P}$, while the total number of the non-execution of _Closure B_ is $$N_{\phi\}=N^2-P$$
 >   
 > ### 3) Second-order loops - Closures analysis:
 > - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
@@ -47,7 +47,7 @@
 > END
 > ```
 > - Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
-> - When combined with _Closure A_ and _Closure B_, the formula will be $$N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$$ ;where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
+> - When combined with _Closure A_ and _Closure B_, the formula will be $$N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi\}) = N^3 - N * N_{\phi\}$$ ;where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
 >
 > ### 4) Second-order loops - An Insider look:
 > - Base idea: Again, as _(2)_, apply the _additive identities_ on the previous quadratic transcendental function.
@@ -57,5 +57,5 @@
 >   // execute commands (conditions - statements - operations - compound closures)
 > END
 > ```
-> - Then, the following applies $$N_{e^{''}} = N_{P^{'}} + N_{{\phi}^{'}}$$ ;where $N_{e^{''}}$ represents the discrete compound complexity for _Closure C_ and _Closure D_ ONLY, when taken out of this system.
+> - Then, the following applies $$N_{e^{''}} = N_{P^{'}} + N_{{\phi\}^{'}}$$ ;where $N_{e^{''}}$ represents the discrete compound complexity for _Closure C_ and _Closure D_ ONLY, when taken out of this system.
 > 
