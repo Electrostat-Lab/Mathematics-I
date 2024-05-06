@@ -5,11 +5,11 @@ This repository houses useful re-usable formulas and equations for discrete math
 
 > Utilizes Resources from:
 
-| List-A _"Discrete & Finite Mathematics"_ | List-B _"Pure Mathematics"_ |
+| _Discrete & Finite Mathematics_ | _Pure Mathematics_ |
 |----------|---------|
 | <img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/c100afd6-459c-48f2-ae1d-5aa387b3eff5"/> | <img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/8006dfe9-80fa-4668-be6f-93726a708ea0"/> |
-| <img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/f3ce09d7-223a-46b1-a849-84271b15acc8"/> | |
-
+| <img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/f3ce09d7-223a-46b1-a849-84271b15acc8"/> | <a href="https://link.springer.com/book/10.1007/978-3-319-91041-3"><img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/04300248-da55-48f9-b9f8-23315d29535c"/></a> |
+| <img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/4207ea21-1cc3-4c11-a64a-042947122a21"/> | <a href="https://link.springer.com/book/10.1007/978-3-540-72122-2"><img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/bee1c1a4-7d55-4697-a340-456a5e7df950"/></a> |
 
 > Powered by:
 
