@@ -46,10 +46,10 @@ $$f(N) = C(N) * \sum_{c=1}^C N_c = C(N) * (N_{0} + N_{1} + ... + N_{C-1} + N_{C}
 
 $$Thence, f(N) = N_c = C(N) * (N_{c_b} + N_{\phi})$$ ;where $C(N)$ is the complexity of the superclosure (aka. closure-A), $N_{c_b}$ is the complexity of subclosure (aka. clousre-B), and $N_{\phi}$ resembles the rest of the clock-complexity outside the subclosure B (i.e., the complexity of the commands outside the clousre-B, but inside closure-A.
 
-$$Thence, f(N) = N_c = N^2 * (N_{c_b} + N_{\phi})$$ ;where $f(N)$ represents the total complexity of the execution of closure-B in the previous snippet, $C(N)$ represents the clock-complexity of the superclosure (i.e., closure-A), and $N_{c_b}$ resembles the clock-complexity (aka. number of times of execution) of the subclosure (i.e., closure-B), and $N_{\phi}$ resembles the clock-complexity of the other commands inside the superclosure A, but outside the subclosure B.
+$$Thence, f(N) = N_c = N^2 * (N_{c_b} + N_{\phi})$$ ;where $f(N)$ represents the total complexity of the execution of closure-B in the previous snippet, $C(N)$ represents the clock-complexity of the superclosure (i.e., closure-A), and $N_{c_b}$ resembles the clock-complexity (aka. number of times of execution) of the subclosure (i.e., closure-B), and $N_{\phi}$ resembles the clock-complexity of the other commands inside the superclosure A, but outside the subclosure B. Now, the next step is to find the $N_{c_b}$ and back-substitute it into this equation.
    
 ### 3) Second-order loops - Closures analysis:
-- Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
+- Base idea: Find the $N_{c_b}$ and back-substitute it.
 - Recall, _Closure C_:
 ```java
  FOR K = 1 THRU N
@@ -57,7 +57,8 @@ $$Thence, f(N) = N_c = N^2 * (N_{c_b} + N_{\phi})$$ ;where $f(N)$ represents the
  END
 ```
 - Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
-- When combined with _Closure A_ and _Closure B_, the formula will be $$N_{e^{'}} = N * N_{e}=N * (N^2-N_{\phi}) = N^3 - N * N_{\phi}$$ ;where $N_{e^{'}}$ represents the total number of execution of the _Closure C_ opcode.
+- Then, $N_{c_b} = f(N) = N$.
+- Back-substitution, $N_c = N^2 * (N_{c_b} + N_{\phi}) = N^2 * (N + N_{\phi})$
 
 ### 4) Second-order loops - An Insider look:
 - Base idea: Again, as _(2)_, apply the _additive identities_ on the previous quadratic transcendental function.
