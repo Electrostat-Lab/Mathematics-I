@@ -61,6 +61,7 @@ $$Thence, f(N) = N_c = N^2 * (N_{c_b} + N_{\phi})$$ ;where $f(N)$ represents the
 ```
 $$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$
 - Then, $f(N) = N_c = N * (N_{c_c} + N_{\phi})$.
-- Back-substitution yields: $$N_c = N^2 * (N_{c_b} + N_{\phi}) = N^2 * (N_c + N_{\phi}) = N^2 * (N * (N_{c_c} + N''\_{\phi}) + N'\_{\phi}) = N^3 * (N_{c_c} + N''\_{\phi}) + N^2 * N'\_{\phi}$$
+- Back-substitution yields: $$N_c = N^2 * (N_{c_b} + N_{\phi}) = N^2 * (N_c + N_{\phi}) = N^2 * (N * (N_{c_c} + N''\_{\phi}) + N'\_{\phi})$$
+$$= N^3 * (N_{c_c} + N''\_{\phi}) + N^2 * N'\_{\phi}$$
 
  
