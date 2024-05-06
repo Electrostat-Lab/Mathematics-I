@@ -32,6 +32,9 @@ $$Then, f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to 
 ```
  
 ### 2) Main loops - An Insider look:
+- Proof:
+$$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$ ;where $N_c$ is the clock-comolexity function of the sub-closure.
+
 - Base idea: _Apply additive identities on the previous exponential transcendentals._
 - Recall, _Closure B_:
 ```java
@@ -39,9 +42,9 @@ $$Then, f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to 
      // execute commands (conditions - statements - operations - compound closures)
  END
 ```
-- Let $P$ be the number of elements in $M_R$ relations matrix, whose value is 1, in other words whose relations are positive in the set $R$.
-- Then, the following applies, if $N^2=N_P+N_{\phi}$, then $$N{\phi}=N^2-N_P$$; where $N_P$ represents the number of ordered pairs that are evaluated to 1s in the $M_R$ data structure, and $N_{\phi}$ represents the number of the ordered pairs that are evaluated to 0s in the ${M_R}$ data structure.
-- Thence, the total number of execution of _Closure B_ is $$N_e=N^2-N_{\phi}$$ which is the same as ${N_P}$, while the total number of the non-execution of _Closure B_ is $$N_{\phi}=N^2-P$$
+- Then, it follows that the clock-complexity can be evaluated as follows:
+$$ f(N) = C(N) * \sum_{c=1}^C N_c = C(N) * (N_{0} + N_{1} + ... + N_{C-1} + N_{C})$$
+$$Thence, f(N) = N_c = (1) * (N_c_b + N_{\phi})$$ ;where $N_c$ is the complexity of the closure.
    
 ### 3) Second-order loops - Closures analysis:
 - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
