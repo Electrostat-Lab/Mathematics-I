@@ -48,25 +48,19 @@ $$Thence, f(N) = N_c = C(N) * (N_{c_b} + N_{\phi})$$ ;where $C(N)$ is the comple
 
 $$Thence, f(N) = N_c = N^2 * (N_{c_b} + N_{\phi})$$ ;where $f(N)$ represents the total complexity of the execution of closure-B in the previous snippet, $C(N)$ represents the clock-complexity of the superclosure (i.e., closure-A), and $N_{c_b}$ resembles the clock-complexity (aka. number of times of execution) of the subclosure (i.e., closure-B), and $N_{\phi}$ resembles the clock-complexity of the other commands inside the superclosure A, but outside the subclosure B. Now, the next step is to find the $N_{c_b}$ and back-substitute it into this equation.
    
-### 3) Second-order loops - Closures analysis:
+### 3) Second-order loops - Closures insider analysis:
 - Base idea: Find the $N_{c_b}$ and back-substitute it.
 - Recall, _Closure C_:
 ```java
  FOR K = 1 THRU N
-   // execute commands (conditions - statements - operations - compound closures)
+   IF (MAT[J,K] = 1 and MAT[I,K] = 1) THEN
+     command()
+   END
+   command()
  END
 ```
-- Hence, it will execute by $f(n)=N$ number of times, depending on the iteration number $N$.
-- Then, $N_{c_b} = f(N) = N$.
-- Back-substitution, $N_c = N^2 * (N_{c_b} + N_{\phi}) = N^2 * (N + N_{\phi})$
+$$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$
+- Then, $f(N) = N_c = N * (N_{c_c} + N_{\phi})$.
+- Back-substitution yields: $$N_c = N^2 * (N_{c_b} + N_{\phi}) = N^2 * (N_c + N_{\phi}) = N^2 * (N * (N_{c_c} + N''\_{\phi}) + N'\_{\phi}) = N^3 * (N_{c_c} + N''\_{\phi}) + N^2 * N'\_{\phi}$$
 
-### 4) Second-order loops - An Insider look:
-- Base idea: Again, as _(2)_, apply the _additive identities_ on the previous quadratic transcendental function.
-- Recall, _Closure D_:
-```java
- IF (MAT[J,K] = 1 and MAT[I,K] = 1) THEN
-   // execute commands (conditions - statements - operations - compound closures)
- END
-```
-- Then, the following applies $$N_{e^{''}} = N_{P^{'}} + N_{\phi}^{'}$$ ;where $N_{e^{''}}$ represents the discrete compound complexity for _Closure C_ and _Closure D_ ONLY, when taken out of this system.
  
