@@ -16,7 +16,12 @@
  * Analysis:
  * ===============================
  ### 1) Main loops - Closures analysis:
- - Base idea: _Apply exponential transcendental functions:_ $$f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to be executed.
+ - Proof:
+$$Since, f(N) = C(N) * \sum_{n=1}^{N} N_c$$ ;where $C(N)$ is the clock-complexity of surrounding closure (superclosure), and $N_c$ is the function complexity of the commands (subsets) to be executed, and it's equivalent to $f(N)$ in a recursive manner.
+- Base idea: _Apply exponential transcendental functions:_
+$$Since, f(n) = C(N) * \sum_{n=1}^N N_c = N * N^{'}$$
+$$Recall, N = N^{'}$$
+$$Then, f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to be executed.
  - Recall, _Closure A_, composed of 2 closures:  
  ```java
  FOR I = 1 THRU N
