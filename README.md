@@ -13,5 +13,5 @@ This repository houses useful re-usable formulas and equations for discrete math
 
 > Powered by:
 
-<img width=170 height=100 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/e8f4ae7f-8dcf-498b-8856-661278875347"/> <img width=220 height=70 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/a3489889-5669-4a5b-ab94-a9a1155d85f5"/>
+<a href="https://jekyllrb.com/"><img width=170 height=100 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/e8f4ae7f-8dcf-498b-8856-661278875347"/></a> <a href="https://www.mathjax.org/"> <img width=220 height=70 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/a3489889-5669-4a5b-ab94-a9a1155d85f5"/> </a>
 
