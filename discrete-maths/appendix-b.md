@@ -63,5 +63,10 @@ $$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$
 - Then, $f(N) = N_c = N * (N_{c_c} + N_{\phi})$.
 - Back-substitution yields: $$N_c = N^2 * (N_{c_b} + N_{\phi}) = N^2 * (N_c + N_{\phi}) = N^2 * (N * (N_{c_c} + N''\_{\phi}) + N'\_{\phi})$$
 $$= N^3 * (N_{c_c} + N''\_{\phi}) + N^2 * N'\_{\phi}$$
+- The following formulas are derivable:
+$$ N_{c_c} = [(N_c - N^2 * N'\_{\phi}) / N^3] - N''\_{\phi} $$
+$$ N''\_{\phi} = [(N_c - N^2 * N'\_{\phi}) / N^3] - N_{c_c} $$
 
+- Now, if `command()` has a clock-complexity of (1):
+$$N_c = N^3 * (N_{c_c} + N''\_{\phi}) + N^2 * N'\_{\phi} = N^3 * (1 + 0) + N^2 * 0 = N^3$$
  
