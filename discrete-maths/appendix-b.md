@@ -31,24 +31,22 @@ $$Then, f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to 
  
 ### 2) Main loops - An Insider look:
 - Proof:
-$$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$ ;where $N_c$ is the clock-comolexity function of the sub-closure.
+$$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$ ;where $C(N)$ is the function of the clock-complexity of the super-closure, and $N_c$ is the clock-complexity function of the sub-closure, and it evaluates to: $$N_c = C(N)\_1 * \sum_{n=1}^N N'_c$$
 
-- Base idea: _Apply additive identities on the previous exponential transcendentals._
+- Base idea: _Apply the finite-product-set principle using the general exponential transcendental formula_.
 - Recall, _Closure B_:
 ```java
  IF (MAT[I,J] = 1) THEN
      // execute commands (conditions - statements - operations - compound closures)
  END
 ```
-- Then, it follows that the clock-complexity can be evaluated as follows:
+- Then, it follows that the clock-complexity of _Closure B_ can be evaluated as follows:
   
 $$f(N) = C(N) * \sum_{c=1}^C N_c = C(N) * (N_{0} + N_{1} + ... + N_{C-1} + N_{C})$$
 
-$$Thence, f(N) = N_c = (1) * (N_{c_b} + N_{\phi})$$ ;where $N_c$ is the complexity of the superclosure (aka. closure-A), $N_{c_b}$ is the complexity of subclosure (aka. clousre-B), and $N_{\phi}$ resembles the rest of the clock-complexity outside the subclosure B (i.e., the complexity of the commands outside the clousre-B, but inside closure-A.
+$$Thence, f(N) = N_c = C(N) * (N_{c_b} + N_{\phi})$$ ;where $C(N)$ is the complexity of the superclosure (aka. closure-A), $N_{c_b}$ is the complexity of subclosure (aka. clousre-B), and $N_{\phi}$ resembles the rest of the clock-complexity outside the subclosure B (i.e., the complexity of the commands outside the clousre-B, but inside closure-A.
 
-$$ Then, N_{c_b} = N_c - N_{\phi} $$ ;when $N_{c_b} is isolated.
-
-$$ Thence, f(N) = C(N) * \sum_{c=1}^C N_c = N_{c_a} * N_{c_b} = N^2 * (N_c - N_{\phi}) $$ ;where $f(N)$ represents the total complexity of the execution of closure-B in the previous snippet, $C(N)$ represents the clock-complexity of the superclosure (i.e., closure-A or $N_{c_a}$), and N_{c_b} resembles the clock-complexity (aka. number of times of execution) of the subclosure (i.e., closure-B) in relation with 
+$$Thence, f(N) = N_c = N^2 * (N_{c_b} + N_{\phi})$$ ;where $f(N)$ represents the total complexity of the execution of closure-B in the previous snippet, $C(N)$ represents the clock-complexity of the superclosure (i.e., closure-A), and $N_{c_b}$ resembles the clock-complexity (aka. number of times of execution) of the subclosure (i.e., closure-B), and $N_{\phi}$ resembles the clock-complexity of the other commands inside the superclosure A, but outside the subclosure B.
    
 ### 3) Second-order loops - Closures analysis:
 - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
