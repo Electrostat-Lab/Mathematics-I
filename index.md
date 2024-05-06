@@ -7,7 +7,9 @@ This repository houses re-usable equations and formulas for the following:
 > * Functions.
 > * Transcendental functions.
 > * Differential calculus.
+> * The Chain Rule.
 > * Fundamental theorem of calculus.
+> * Integration by parts (anti-derivation of the chain rule).
 > * First-order differential equations.
 > * Second-order differential equations.
 > * Vectors.
