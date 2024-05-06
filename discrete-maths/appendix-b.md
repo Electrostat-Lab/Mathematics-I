@@ -21,7 +21,7 @@ $$Since, f(N) = C(N) * \sum_{n=1}^{N} N_c$$ ;where $C(N)$ is the clock-complexit
 - Base idea: _Apply exponential transcendental functions:_
 $$Since, f(n) = C(N) * \sum_{n=1}^N N_c = N * N^{'}$$
 $$Recall, N = N^{'}$$
-$$Then, f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to be executed.
+$$Then, f(n) = N^{n_l} = N^2$$; where ${n_l}$ is the number of loop closures to be executed; in case of $N = N^{'}$.
  - Recall, _Closure A_, composed of 2 closures:  
  ```java
  FOR I = 1 THRU N
