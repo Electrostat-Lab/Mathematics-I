@@ -41,8 +41,10 @@ $$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$ ;where $N_c$ is the clock-comolexity f
  END
 ```
 - Then, it follows that the clock-complexity can be evaluated as follows:
-$$ f(N) = C(N) * \sum_{c=1}^C N_c = C(N) * (N_{0} + N_{1} + ... + N_{C-1} + N_{C})$$
-$$Thence, f(N) = N_c = (1) * (N_c_b + N_{\phi})$$ ;where $N_c$ is the complexity of the superclosure (aka. closure-A), $N_c_b$ is the complexity of subclosure (aka. clousre-B), and $N_{\phi}$ resembles the rest of the clock-complexity outside the subclosure B (i.e., the complexity of the commands outside the clousre-B, but inside closure-A.
+  
+$$f(N) = C(N) * \sum_{c=1}^C N_c = C(N) * (N_{0} + N_{1} + ... + N_{C-1} + N_{C})$$
+
+$$Thence, f(N) = N_c = (1) * (N_{c_b} + N_{\phi})$$ ;where $N_c$ is the complexity of the superclosure (aka. closure-A), $N_{c_b}$ is the complexity of subclosure (aka. clousre-B), and $N_{\phi}$ resembles the rest of the clock-complexity outside the subclosure B (i.e., the complexity of the commands outside the clousre-B, but inside closure-A.
    
 ### 3) Second-order loops - Closures analysis:
 - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
