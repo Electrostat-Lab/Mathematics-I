@@ -45,6 +45,10 @@ $$Since, f(N) = C(N) * \sum_{n=1}^N N_c$$ ;where $N_c$ is the clock-comolexity f
 $$f(N) = C(N) * \sum_{c=1}^C N_c = C(N) * (N_{0} + N_{1} + ... + N_{C-1} + N_{C})$$
 
 $$Thence, f(N) = N_c = (1) * (N_{c_b} + N_{\phi})$$ ;where $N_c$ is the complexity of the superclosure (aka. closure-A), $N_{c_b}$ is the complexity of subclosure (aka. clousre-B), and $N_{\phi}$ resembles the rest of the clock-complexity outside the subclosure B (i.e., the complexity of the commands outside the clousre-B, but inside closure-A.
+
+$$ Then, N_{c_b} = N_c - N_{\phi} $$ ;when $N_{c_b} is isolated.
+
+$$ Thence, f(N) = C(N) * \sum_{c=1}^C N_c = N_{c_a} * N_{c_b} = N^2 * (N_c - N_{\phi}) $$ ;where $f(N)$ represents the total complexity of the execution of closure-B in the previous snippet, $C(N)$ represents the clock-complexity of the superclosure (i.e., closure-A or $N_{c_a}$), and N_{c_b} resembles the clock-complexity (aka. number of times of execution) of the subclosure (i.e., closure-B) in relation with 
    
 ### 3) Second-order loops - Closures analysis:
 - Base idea: Further loops apply the principles of _exponentiation or in other words repeated multiplication_.
