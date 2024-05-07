@@ -48,7 +48,7 @@ This repository houses re-usable equations and formulas for the following:
 > * The fundamental theorem of calculus in FSA-based algorithms.
 > * Appendices
 > * =============================
-> * Appendix-A: [Symbolic Designation of mathematical analysis]()
+> * Appendix-A: [Symbolic Designation of mathematical analysis](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-a)
 > * Appendix-B: [Algorithm Analysis](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-b)
 > * Appendix-C: [Analysis by example](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-c)
 > * Appendix-D: FSA Analysis.
