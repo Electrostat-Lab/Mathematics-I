@@ -48,11 +48,12 @@ This repository houses re-usable equations and formulas for the following:
 > * The fundamental theorem of calculus in FSA-based algorithms.
 > * Appendices
 > * =============================
-> * Appendix-A: [Algorithm Analysis](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-a)
-> * Appendix-B: [Analysis by example](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-b)
-> * Appendix-C: FSA Analysis.
-> * Appendix-D: Time-warp states and FSA.
-> * Appendix-F: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
+> * Appendix-A: [Symbolic Designation of mathematical analysis]()
+> * Appendix-B: [Algorithm Analysis](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-a)
+> * Appendix-C: [Analysis by example](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-b)
+> * Appendix-D: FSA Analysis.
+> * Appendix-F: Time-warp states and FSA.
+> * Appendix-E: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
 > * =============================
 
 * **Linear algebra**
