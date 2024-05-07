@@ -12,7 +12,7 @@
  ```
 - Then, it follows that the dummy `command()` with the clock-complexity $N_c$ will be executed $N$ times, so $$f(N) = N * (N_c)$$
 - Hence, the complexity of the closure execution can be represented as a finite-sum by Riemann's sum formula:
-  $$f(N) = \sum_{n=1}^{N} N_c = {(N_c)}_1 + {(N_c)}_2 + {(N_c)}_3 +...+ ({N_c})\_{N-2} + ({N_c})\_{N-1} + ({N_c})\_{N} = N(N_c)$$
+  $$f(N) = \sum_{n=1}^{N} N_{c_n} = {(N_c)}_1 + {(N_c)}_2 + {(N_c)}_3 +...+ ({N_c})\_{N-2} + ({N_c})\_{N-1} + ({N_c})\_{N} = N(N_c)$$
 - As a matter of multi-variable equations, as well as the total clock-complexity of the execution depends on the number of iterations, it also depends on what's inside the loop closures, or in other words the `command()` complexity. If, the `command()`'s clock-complexity can be evaluated to $N_c=1$ as a matter of simple command-execution opcode, then the total clock-complexity for this loop closure is $$f(N) = \sum_{n=1}^{N} 1 = N(1) = N$$.
 - Since, Riemann's sums can be applied for a finite-set _S_ of closures execution, so $$f(I) = \sum_{i=1}^{I} f(N_{i}) = f(N_{i}) + f(N_{i+1}) + f(N_{i+2}) + ... + f(N_{I-2}) + f(N_{I-1}) + f(N_{I})$$
 - Then, a specific notation of Riemann's sums can be applied for a finite-set $S_L$ of loop closures execution: $$f(I) = \sum_{i=1}^{I} f(L_{i}) = f(L_{i}) + f(L_{i+1}) + f(L_{i+2}) + ... + f(L_{I-2}) + f(L_{I-1}) + f(L_{I})$$
