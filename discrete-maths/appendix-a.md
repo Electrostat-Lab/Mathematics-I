@@ -7,3 +7,5 @@
 - $N'_{c_n}$: the clock-complexity of the $n^{th}$ subclosure of the designated closure.
 
 ## The following is the generalized formula: 
+
+$$f(N) = N_c = C(N) * \sum_{n=0}^N N_{c_n} = C(N) * (N_{c_0} + N_{c_1} + N_{c_2} + ... + N_{c_{(N-2)}} + N_{c_{(N-1)}} + N_{c_{(N)}})$$
