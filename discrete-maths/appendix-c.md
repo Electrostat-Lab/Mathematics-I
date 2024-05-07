@@ -1,4 +1,4 @@
-# Discrete Mathematics I: Appendix-B: Analysis by example
+# Discrete Mathematics I: Appendix-C: Analysis by example
 
 ## Test for transitivity of relations in set A, where R represents the set of the relations from A to A; such that {A `R` A} can be deployed: 
 
