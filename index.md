@@ -49,8 +49,8 @@ This repository houses re-usable equations and formulas for the following:
 > * Appendices
 > * =============================
 > * Appendix-A: [Symbolic Designation of mathematical analysis]()
-> * Appendix-B: [Algorithm Analysis](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-a)
-> * Appendix-C: [Analysis by example](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-b)
+> * Appendix-B: [Algorithm Analysis](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-b)
+> * Appendix-C: [Analysis by example](https://electrostat-lab.github.io/Mathematics-I/discrete-maths/appendix-c)
 > * Appendix-D: FSA Analysis.
 > * Appendix-F: Time-warp states and FSA.
 > * Appendix-E: Implementation using [Automata4j](https://github.com/Software-Hardware-Codesign/Automata4j).
