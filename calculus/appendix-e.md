@@ -2,11 +2,15 @@
 
 ## 1) The dot product: 
 
-- Recall, 2 intersecting vectors $u$ and $v$ together with the resultant vetcor $w$; such that, $$w = u + v$$
+- Recall, 2 intersecting vectors $u$ and $v$ together with the resultant vetcor $w$; such that, $$w = u - v$$
 
 - From the "Law of Cosines":
 $$Since, ||w||^2 = ||u||^2 + ||v||^2 - 2 * ||u|| * ||v|| * cos(\theta)$$
-$$cos(\theta) = (||w||^2 - ||u||^2 - ||v||^2) / -2 * ||u|| * ||v||$$
+$$Then, cos(\theta) = (||w||^2 - ||u||^2 - ||v||^2) / -2 * ||u|| * ||v||\ Lemma\.01$$ 
+
+$$Since, ||w|| = \sqrt{(u_x - v_x)^2 + (u_y - v_y)^2 + (u_z - v_z)^2}$$
+$$||v|| = \sqrt{{v_x}^2 + {v_y}^2 + {v_z}^2}$$
+$$||u|| = \sqrt{$$
 
 $$Hence, cos(\theta) = u.v / ||u|| * ||v||$$
 $$Thence, u.v = ||u|| * ||v|| * cos(\theta)$$
