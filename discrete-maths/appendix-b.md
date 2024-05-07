@@ -1,4 +1,4 @@
-# Discrete Mathematics I - Appendix-A: Algorithm Analysis
+# Discrete Mathematics I - Appendix-B: Algorithm Analysis
 
 ## Algorithms Manual Analysis (Closures Analysis): 
 ### 1) N-order looping algorithms:
