@@ -62,7 +62,7 @@ $$And, u.v = ||u|| * ||v|| * cos(\theta)$$
 ## 3) Usages Review:
 1) Finding the work done by a force vector $(F)$ to move an object a displacement $(D)$ with an inscribed angle $(a)$, formula (Physics):
 
-$$W = F.D = ||F|| * ||D|| * cos(a) = (\sum_{i=0}^{n} u_i v_i) * cos(a) = (u_0 v_0+u_1 v_1+u_2 v_2+...+ u_{n-1} v_{n-1} + u_n v_n) * cos(a)$$
+$$W = F.D = ||F|| * ||D|| * cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_2 v_2+...+ u_{n-1} v_{n-1} + u_n v_n$$
 
 2) Finding the inscribed angle (<a) between 2 intersecting vectors, formula:
 
