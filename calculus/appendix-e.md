@@ -68,7 +68,7 @@ $$W = F.D = ||F|| * ||D|| * cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_
 
 $$m(a) = acos(u.v/(||u|| * ||v||))$$ ;where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
   
-3) Finding whether 2 intersecting vectors are orthogonal, formula: $u.v = ||u|| * ||v|| * cos(PI/2)$ = ZERO (Geometry).
+3) Finding whether 2 intersecting vectors are orthogonal, formula: $u.v = ||u|| * ||v|| * cos(PI/2) = ZERO.$ (Geometry).
   
 4) Finding projection vectors, formula: "the vector projection of $u$ onto $v$", formula:
 
@@ -85,5 +85,5 @@ $$BP = CO * SVR * cos(0)$$
 > References: 
 > * Thomas' Calculus $14^{th}e$: Ch.12 Vectors & Geometry of Space: Section.12.3. (The Dot Product).
 > * Guyton and Hall Textbook of Medical Physiology $13^{th}e$
-> * Applied Linear Algebra $2^{nd}e$ Springer$
+> * Applied Linear Algebra $2^{nd}e$ Springer
 
