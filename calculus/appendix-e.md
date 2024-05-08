@@ -59,4 +59,8 @@ $$And, u.v = ||u|| * ||v|| * cos(\theta)$$
 
 ## 2) Projection vectors: 
 
+## 3) Usages Review:
+1-  
+2-
+
 
