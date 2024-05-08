@@ -1,5 +1,6 @@
 # Mathematics-I
 > Created by [Pavl_G](https://github.com/Scrappers-glitch)
+>> [Contribution Guidelines](https://github.com/Electrostat-Lab/.github/blob/main/CONTRIBUTING.md)
 
 This repository houses useful re-usable formulas and equations for discrete mathematics, linear algebra, and calculus together with an insightful addition of appendices that include proofs, analysis tools, and other useful life applications.
 
