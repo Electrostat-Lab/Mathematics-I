@@ -5,7 +5,9 @@
 - Recall, 2 intersecting vectors $u$ and $v$ together with the resultant vetcor $w$; such that, $$w = u - v$$
 
 - From the "Law of Cosines":
+
 $$Since, ||w||^2 = ||u||^2 + ||v||^2 - 2 * ||u||^2 * ||v||^2 * cos(\theta)$$
+
 $$Then, cos(\theta) = (||w||^2 - ||u||^2 - ||v||^2) / -2 * ||u||^2 * ||v||^2\ Lemma\.01$$ 
 
 $$ ------- $$
@@ -26,17 +28,34 @@ $$2)\ ||u||^2 = {u_x}^2 + {u_y}^2 + {u_z}^2$$
 
 $$3)\ ||w||^2 = {u_x - v_x}^2 + {u_y - v_y}^2 + {u_z - v_z}^2$$
 
+$$= ({u_x}^2 -2{u_x}{v_x} + {v_x}^2) + ({u_y}^2 -2{u_y}{v_y} + {v_y}^2) + ({u_z}^2 -2{u_z}{v_z} + {v_z}^2)$$
+
+$$= ||u||^2 + ||v||^2 -2({u_x}{v_x} + {u_y}{v_y} + {u_z}{v_z})$$
+
 $$ ------- $$
 
 - By back-substitution in $Lemma.01$:
 
-$$cos(\theta) = (||w||^2 - ||u||^2 - ||v||^2) / -2 * ||u||^2 * ||v||^2 = {(R.H.S)}_1 / {(R.H.S)}_2
+$$cos(\theta) = (||w||^2 - ||u||^2 - ||v||^2) / -2 * ||u||^2 * ||v||^2 = {(R.H.S)}_1 / {(R.H.S)}_2$$
 
 $${(R.H.S)}_1 = (||w||^2 - ||u||^2 - ||v||^2)$$
-$${(R.H.S)}_2 = -2 * ||u||^2 * ||v||^2 = -2 * ({u_x}^2 + {u_y}^2 + {u_z}^2) * ({v_x}^2 + {v_y}^2 + {v_z}^2)
 
-$$Hence, cos(\theta) = u.v / ||u|| * ||v||$$
-$$Thence, u.v = ||u|| * ||v|| * cos(\theta)$$
+$$= -2({u_x}{v_x} + {u_y}{v_y} + {u_z}{v_z})$$
+
+$${(R.H.S)}_2 = -2 * ||u||^2 * ||v||^2$$
+
+$$Hence, cos(\theta) = {(R.H.S)}_1 / {(R.H.S)}_2$$
+
+$$= -2({u_x}{v_x} + {u_y}{v_y} + {u_z}{v_z}) / -2 * ||u||^2 * ||v||^2$$
+
+$$= ({u_x}{v_x} + {u_y}{v_y} + {u_z}{v_z}) / ||u||^2 * ||v||^2$$
+
+- And, by definition $({u_x}{v_x} + {u_y}{v_y} + {u_z}{v_z})$ yields $u.v$, the dot product or the inner product.
+
+$$Thence, cos(\theta) = u.v / ||u|| * ||v||$$
+
+$$And, u.v = ||u|| * ||v|| * cos(\theta)$$
+
 
 ## 2) Projection vectors: 
 
