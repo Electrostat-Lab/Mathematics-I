@@ -26,7 +26,7 @@ This repository houses re-usable equations and formulas for the following:
 > * Appendix-B: Derivation of the trigonometric identities.
 > * Appendix-C: Derivation of the fundamental theorem part-01 & part-02.
 > * Appendix-D: Derivation of the vector normalization formula.
-> * Appendix-E: Derivation of the dot product and the projection vectors.
+> * Appendix-E: [Derivation of the dot product and the projection vectors.](https://electrostat-lab.github.io/Mathematics-I/calculus/appendix-e)
 > * Appendix-F: Derivation of the cross product.
 > * Appendix-G: Derivation of the triple product.
 > * Appendix-H: Derivation of the vectorial polar coordinates from the rectangular coordinates.
