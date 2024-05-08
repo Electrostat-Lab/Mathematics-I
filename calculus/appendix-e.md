@@ -82,4 +82,8 @@ $$V = I * R * cos(0)$$
 
 $$BP = CO * SVR * cos(0)$$
 
+> References: 
+> * Thomas' Calculus $14^{th}e$: Ch.12 Vectors & Geometry of Space: Section.12.3. (The Dot Product).
+> * Guyton and Hall Textbook of Medical Physiology $13^{th}e$
+> * Applied Linear Algebra $2^{nd}e$ Springer$
 
