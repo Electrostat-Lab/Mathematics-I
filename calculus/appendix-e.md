@@ -68,7 +68,9 @@ $$W = F.D = ||F|| * ||D|| * cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_
 
 2) Finding the inscribed angle (<a) between 2 intersecting vectors, formula:
 
-$$m(a) = acos(u.v/(||u|| * ||v||))$$ where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
+$$m(a) = acos(u.v/(||u|| * ||v||))$$
+
+> where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
   
 3) Finding whether 2 intersecting vectors are orthogonal, formula: $u.v = ||u|| * ||v|| * cos(PI/2) = ZERO.$ (Geometry).
   
