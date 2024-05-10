@@ -76,7 +76,9 @@ $$m(a) = acos(u.v/(||u|| * ||v||))$$
   
 4) Finding projection vectors, formula: "the vector projection of $u$ onto $v$", formula:
 
-$$proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$$ where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
+$$proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$$ 
+
+> where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
 
 5) Finding the total electromotive force (EMF) in a closed circuit loop, formula (aka. Ohm's Law):
 
