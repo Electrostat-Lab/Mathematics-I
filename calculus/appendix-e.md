@@ -1,6 +1,6 @@
 # Calculus I: Appendix-E: Derivation of the dot product and the projection vectors 
 
-<img src="https://electrostat-lab.github.io/Mathematics-I/calculus/.archive/the-dot-product.jpg" width=80 height=150/>
+<img src="https://github.com/Electrostat-Lab/Mathematics-I/blob/master/calculus/.archive/the-dot-product.jpg" width=80 height=150/>
 
 ## 1) The dot product: 
 
