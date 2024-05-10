@@ -1,5 +1,7 @@
 # Calculus I: Appendix-E: Derivation of the dot product and the projection vectors 
 
+<img src="https://electrostat-lab.github.io/Mathematics-I/calculus/.archive/the-dot-product.jpg" width=80 height=150/>
+
 ## 1) The dot product: 
 
 - Recall, 2 intersecting vectors $u$ and $v$ together with the resultant vetcor $w$; such that, $$w = u - v$$
