@@ -16,8 +16,8 @@
 </script>
   <title>My Awesome Blog</title>
   <style>
-	panel {
-	}
+   panel {
+   }
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -97,10 +97,8 @@
   <header>
     <img src="https://avatars.githubusercontent.com/u/103846078?s=400&u=ddac8707698572d5827be7780234b7a8659f0fe3&v=4" width=80 height=80 /> 
    <panel> 
-               <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-<!--     <h1>Mathematics-I</h1>
-    <p class="subtitle" align="center">"Houses useful re-usable mathematical formulas and equations for life management"</p>  -->
+    <h1>{{ site.title | default: site.github.repository_name }}</h1>
+    <p class="subtitle" align="center">"{{ site.description | default: site.github.project_tagline }}"</p> 
    </panel>
     <nav class="a">
       <ul>
@@ -180,6 +178,7 @@
         <li><a href="#">The fundamental theorem of calculus in FSA-based algorithms</a></li>
       </ul>
       <h4>Appendices</h4>
+	<ul>
 <!-- 	> * ()
 
 	> * ()
@@ -195,6 +194,7 @@
         <li><a href="#">Algorithms on FSA</a></li>
         <li><a href="#">Asymptotic analysis on FSA</a></li>
         <li><a href="#">The fundamental theorem of calculus in FSA-based algorithms</a></li>
+        </ul>
     </aside>
   </main>
 </body>
