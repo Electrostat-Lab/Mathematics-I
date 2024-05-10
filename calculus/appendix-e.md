@@ -68,17 +68,13 @@ $$W = F.D = ||F|| * ||D|| * cos(a) = \sum_{i=0}^{n} u_i v_i = u_0 v_0+u_1 v_1+u_
 
 2) Finding the inscribed angle (<a) between 2 intersecting vectors, formula:
 
-$$m(a) = acos(u.v/(||u|| * ||v||))$$ 
-
-;where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
+$$m(a) = acos(u.v/(||u|| * ||v||))$$ where u.v can be evaluated using the Riemann's sum formula (Trigo./Physics).
   
 3) Finding whether 2 intersecting vectors are orthogonal, formula: $u.v = ||u|| * ||v|| * cos(PI/2) = ZERO.$ (Geometry).
   
 4) Finding projection vectors, formula: "the vector projection of $u$ onto $v$", formula:
 
-$$proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$$ 
-
-;where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
+$$proj_{v}^{u} = (||u|| * cos(a)) * (v/||v||) = (u.v / ||v||^2) * v$$ where $(||u|| * cos(a))$ is the length of the triangle base, and $(v/||v||)$ is the unit vector form (normalized) of $v$.
 
 5) Finding the total electromotive force (EMF) in a closed circuit loop, formula (aka. Ohm's Law):
 
