@@ -61,6 +61,21 @@ $$And, u.v = ||u|| * ||v|| * cos(\theta)$$
 
 ## 2) Projection vectors: 
 
+* Definition: The projection vector $\vec{proj_{\vec{v}}} \vec{u}$ of a vector $\vec{u}$, is the vector component of that vector, that is coincident to the projectile vector $\vec{v}$, multiplied by the unit vector of the 
+projectile vector (i.e., the direction).
+
+* For a productive proof, let vector $\vec{u}$ be our target vector, the one we would like to find its vector components in the direction of another contigous vectors, and vector $\vec{v}$ be the projectile (aka. base) vector
+the one we would like to utilize its direction to find the projection vector.
+
+1) Finding the vector component $\vec{u_x}$ that is coincident to the projectile vector $\vec{v}$:
+2) Finding the vector norm $||\vec{v}||$ of the projectile vector $\vec{v}$:
+3) Finding the normalization ratio using the scalar division property $\vec{v_{unit}} = \vec{v} / ||v||$ of the projectile vector (base vector):
+4) Using the scalar multiplication property $\vec{u_x} * \vec{v_{unit}}$:
+
+> Note:
+> * This is could be applied to other components of vector $\vec{u}$, the $\vec{u_y}$, and the $\vec{u_z}$, and any vector could be utilized as the base or the projectile vector.
+> * The projection vector of vector $\vec{u}$ on itself $\vec{proj_{\vec{u}}} \vec{u}$ is the vector $\vec{u}$ itself scaled with the length of one of its vector components.
+
 ## 3) Usages Review:
 1) Finding the work done by a force vector $(F)$ to move an object a displacement $(D)$ with an inscribed angle $(a)$, formula (Physics):
 
