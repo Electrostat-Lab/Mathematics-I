@@ -67,10 +67,37 @@ projectile vector (i.e., the direction).
 * For a productive proof, let vector $\vec{u}$ be our target vector, the one we would like to find its vector components in the direction of another contigous vectors, and vector $\vec{v}$ be the projectile (aka. base) vector
 the one we would like to utilize its direction to find the projection vector.
 
-1) Finding the vector component $\vec{u_x}$ that is coincident to the projectile vector $\vec{v}$:
+1) Finding the norm of the vector component $||\vec{u_x}||$ that is coincident to the projectile vector $\vec{v}$:
+
+$$Since, cos(\theta) = ||\vec{u_x}|| / ||\vec{u}||$$
+
+$$Then, ||\vec{u_x}|| = ||\vec{u}|| * cos(\theta)$$
+
 2) Finding the vector norm $||\vec{v}||$ of the projectile vector $\vec{v}$:
-3) Finding the normalization ratio using the scalar division property $\vec{v_{unit}} = \vec{v} / ||v||$ of the projectile vector (base vector):
-4) Using the scalar multiplication property $\vec{u_x} * \vec{v_{unit}}$:
+
+$$||\vec{v}|| = \sqrt{\{v_x}^2 + {v_y}^2 + {v_z}^2\}$$
+
+3) Finding the normalization ratio using the scalar division property $\vec{v_{unit}} = \vec{v} / ||\vec{v}||$ of the projectile vector (base vector).
+   
+4) Using the scalar multiplication property $||\vec{u_x}|| * \vec{v_{unit}}$:
+
+> $Lemma.01$
+
+$$||\vec{u_x}|| * \vec{v_{unit} = (||\vec{u}|| * cos(\theta)) * \vec{v_{unit}$$
+
+$$Since, \vec{u}.\vec{v} = ||\vec{u}|| * ||\vec{v}|| * cos(\theta)$$
+
+> $Lemma.02$
+
+$$Then, ||\vec{u}|| * cos(\theta) = (\vec{u}.\vec{v}) / ||\vec{v}||$$
+
+5) Then, from $Lemma.01$ and $Lemma.02$, we can deduce the projection vector formula in terms of the dot product between 2 vectors as follows: 
+
+$$\vec{proj_{\vec{v}}} \vec{u} = (\vec{u}.\vec{v} * \vec{v_{unit}) / ||\vec{v}||$$
+
+6) Another formula when $\vec{v_{unit}}$ is broken: 
+
+$$\vec{proj_{\vec{v}}} \vec{u} = (\vec{u}.\vec{v} * \vec{v}) / ||\vec{v}||^2$$
 
 > Note:
 > * This is could be applied to other components of vector $\vec{u}$, the $\vec{u_y}$, and the $\vec{u_z}$, and any vector could be utilized as the base or the projectile vector.
