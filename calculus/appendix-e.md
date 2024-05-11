@@ -93,11 +93,11 @@ $$Then,||\vec{u}||*cos(\theta)=(\vec{u}.\vec{v})/||\vec{v}||$$
 
 5) Then, from $Lemma.01$ and $Lemma.02$, we can deduce the projection vector formula in terms of the dot product between 2 vectors as follows: 
 
-$$\vec{proj_{\vec{v}}}\vec{u}=(\vec{u}\.\vec{v}\*\vec{v_{unit})/||\vec{v}||$$
+$$\vec{proj_{\vec{v}}}\vec{u}=[({\vec{u}}.{\vec{v}})*{\vec{v_{unit}}}]/||\vec{v}||$$
 
 6) Another formula when $\vec{v_{unit}}$ is broken: 
 
-$$\vec{proj_{\vec{v}}}\vec{u}=(\vec{u}.\vec{v}*\vec{v})/||\vec{v}||^2$$
+$$\vec{proj_{\vec{v}}}\vec{u}=[\vec{u}.\vec{v}*\vec{v}]/||\vec{v}||^2$$
 
 > Note:
 > * This is could be applied to other components of vector $\vec{u}$, the $\vec{u_y}$, and the $\vec{u_z}$, and any vector could be utilized as the base or the projectile vector.
