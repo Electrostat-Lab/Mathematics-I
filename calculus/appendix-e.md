@@ -67,7 +67,7 @@ projectile vector (i.e., the direction).
 * For a productive proof, let vector $\vec{u}$ be our target vector, the one we would like to find its vector components in the direction of another contigous vectors, and vector $\vec{v}$ be the projectile (aka. base) vector
 the one we would like to utilize its direction to find the projection vector.
 
-1) Finding the norm of the vector component $||\vec{u_x}||$ that is coincident to the projectile vector $\vec{v}$:
+1) Finding the norm of the vector component $||\vec{u_x}||\$ that is coincident to the projectile vector $\vec{v}\$:
 
 $$Since,cos(\theta)=||\vec{u_x}||/||\vec{u}||$$
 
