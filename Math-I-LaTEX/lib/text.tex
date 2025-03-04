@@ -1,0 +1,8 @@
+% Define custom subsection command with color parameter
+\newcommand{\specialsubsection}[3]{
+    \medskip
+    \begin{tcolorbox}[colback=#3!10!white, colframe=#3!80!black, title=\textbf{#1}, sharp corners=south]
+        #2
+    \end{tcolorbox}
+    \medskip
+}

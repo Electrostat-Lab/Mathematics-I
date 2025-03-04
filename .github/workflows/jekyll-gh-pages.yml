@@ -28,6 +28,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+	  - name: Install TEX-Live Base and Latex2html
+		run: sudo apt install texlive-base latex2html
+	  - name: Build LaTEX Code
+		run: cd ./Math-I-LaTEX && chmod +rwx ./build-script/compile-tex math-i.tex && ./build-script/compile-tex math-i.tex
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
