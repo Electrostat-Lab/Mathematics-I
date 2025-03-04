@@ -16,6 +16,11 @@ This repository houses useful re-usable formulas and equations for discrete math
 |--------------------------|
 | <img width=160 height=200 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/e589fc74-c6d4-428d-8941-c3857cee2d21"/> | 
 
+## Advanced Goals in Pure Mathematics and Theory of Computation:
+* [Scientific Computing](https://en.wikipedia.org/wiki/Computational_science).
+* [Modelling and Simulation](https://en.wikipedia.org/wiki/Modeling_and_simulation).
+* [Real Analysis](https://en.wikipedia.org/wiki/Real_analysis).
+
 > Powered by:
 
 <a href="https://jekyllrb.com/"><img width=170 height=100 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/e8f4ae7f-8dcf-498b-8856-661278875347"/></a> <a href="https://www.mathjax.org/"> <img width=220 height=70 src="https://github.com/Electrostat-Lab/Mathematics-I/assets/60224159/a3489889-5669-4a5b-ab94-a9a1155d85f5"/> </a>
