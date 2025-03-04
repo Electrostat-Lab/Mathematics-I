@@ -1,4 +1,3 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
@@ -28,17 +27,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-	  - name: Install TEX-Live Base and Latex2html
-		run: sudo apt install texlive-base latex2html
-	  - name: Build LaTEX Code
-		run: cd ./Math-I-LaTEX && chmod +rwx ./build-script/compile-tex math-i.tex && ./build-script/compile-tex math-i.tex
+      
+      - name: Install TEX-Live Base and Latex2html
+        run: sudo apt install texlive-base latex2html
+      
+      - name: Build LaTEX Code
+        run: |
+          cd ./Math-I-LaTEX
+          chmod +rwx ./build-script/compile-tex math-i.tex
+          ./build-script/compile-tex math-i.tex
+      
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
