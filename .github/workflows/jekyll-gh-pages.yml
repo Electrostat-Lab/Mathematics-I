@@ -34,8 +34,8 @@ jobs:
       - name: Build LaTEX Code
         run: |
           cd ./Math-I-LaTEX
-          chmod +rwx ./build-script/compile-tex math-i.tex
-          ./build-script/compile-tex math-i.tex
+          chmod +rwx ./build-script/compile-tex.sh math-i.tex
+          ./build-script/compile-tex.sh math-i.tex
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
