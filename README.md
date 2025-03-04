@@ -1,5 +1,5 @@
 # Linear-Projection project: Mathematics-I
-> Created by [Pavl_G](https://github.com/Scrappers-glitch)
+> Created by [Pavl_G](https://github.com/pavly-gerges)
 >> [Contribution Guidelines](https://github.com/Electrostat-Lab/.github/blob/main/CONTRIBUTING.md)
 
 This repository houses useful re-usable formulas and equations for discrete mathematics, linear algebra, and calculus together with an insightful addition of appendices that include proofs, analysis tools, and other useful life applications. While Elementary, Mathematics-I is deemed to provide a sufficient undergrad-graduate level transition mathematics for building the **_Linear Projection Project_**; a part of the [Electrostatic-Sandbox SDK for Distributed Simulations: ElectroNetSoft Framework: Arithmos APIs](https://github.com/Electrostat-Lab/Electrostatic-Sandbox). 
